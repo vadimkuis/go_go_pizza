@@ -1,0 +1,19 @@
+.footer__logo{
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
+.footer__copyright{
+  margin-bottom: 16px;
+}
+.footer__copyright,
+.footer__developer{
+  text-align: center;
+  font-size: 20px;
+  color: var(--beige);  
+}
+@media (width <= 620px) {
+  .footer__copyright,
+  .footer__developer{
+    font-size: 16px;
+  }
+}
